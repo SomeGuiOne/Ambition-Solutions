@@ -1,0 +1,164 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('yag.png'); /* Substitua 'background_image.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #FFD871; /* Cor do texto do cabeçalho */
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+.collection-image {
+    max-width: 500px; /* Definindo a largura máxima da imagem */
+}
+.navigation a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto do cabeçalho */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transição de cor */
+}
+
+.navigation a:hover {
+    color: #ff0; /* Cor amarela ao passar o mouse */
+}
+
+/* Estilos da seção "Comece Agora" */
+.start-now {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    padding: 50px 0;
+}
+
+.start-now-content {
+    text-align: center;
+    color: #fff; /* Cor do texto */
+}
+
+.start-now-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.start-now-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.start-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.start-now-button:hover {
+    background-color: #555;
+}
+
+/* Estilos da seção de coleções */
+.collections {
+    padding: 50px 0;
+    color: #FFD871;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.collection-item {
+    background-image: url(yag.png);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.collection-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.collection-title {
+    font-size: 20px;
+    color: #FFD871;
+    margin-bottom: 10px;
+}
+
+.collection-description {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.collection-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.collection-link:hover {
+    background-color: #555;
+}
+
+/* Estilos da seção de parceiros */
+.partners {
+    padding: 50px 0;
+    color: #FFD871;
+}
+
+.partner-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.partner-image {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 5px;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
